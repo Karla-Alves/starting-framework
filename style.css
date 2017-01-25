@@ -1,9 +1,59 @@
 
-/* 
-	STYLE.CSS:
-	One stylesheet to rule them all.
-	
-	selector { property:value }
-	
-*/
+.tabbing{
+  padding-left: 2em;
+}
 
+.wrapper {
+  width: 600px;
+  margin: auto;
+}
+
+header {
+  height: 100px;
+  background-color: #403933; /* Dark Brown */
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  line-height: 450%;
+}
+
+main h2 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+main p {
+
+}
+
+main img {
+  width: 100%;
+}
+
+a:link    {
+  color: blue;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover   {
+  color: green;
+}
+
+a:active  {
+   color: pink;
+  }
+
+
+footer{
+  height: 100px;
+  background-color: #403933; /* Dark Brown */
+  color: white;
+  line-height: 200%;
+}
